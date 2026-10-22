@@ -2190,6 +2190,8 @@ app.get(
         outcome: signal.outcome,
         outcomeCode: signal.outcomeCode,
         detail: signal.detail,
+        isNormalEmpty: signal.isNormalEmpty,
+        latencyMs: signal.latencyMs,
         counts: signal.counts,
       });
     } catch (error: any) {
